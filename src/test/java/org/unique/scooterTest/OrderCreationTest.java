@@ -45,7 +45,7 @@ public class OrderCreationTest {
     @Test
     public void OrderPositiveTest() {
         driver = new ChromeDriver();
-        driver.get("https://qa-scooter.praktikum-services.ru");
+        driver.get("https://qa-scooter.praktikum-services.ru/order");
         MainPageScooter objMainPage = new MainPageScooter(driver);
         objMainPage.clickHeaderOrderButton();
         OrderFormPage objOrderPage = new OrderFormPage(driver);
